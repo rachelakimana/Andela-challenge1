@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: yellowgreen;
+  background-size: auto;
+  height: 100vh;
+}
+
+.card1 {
+  flex-direction: column;
+  background-color: chocolate;
+  height: 75%;
+  width: 20%;
+  margin: 4rem;
+}
+.h-sedan {
+  color: white;
+  font-family: impact, sans-serif;
+  font-size: 30px;
+}
+.p-sedan {
+  text-align: left;
+  font-size: 18px;
+}
+h1,
+img,
+p {
+  align-content: center;
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.b-sedan {
+  margin: 3rem 2rem 0rem 2rem;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 12px 20px;
+}
