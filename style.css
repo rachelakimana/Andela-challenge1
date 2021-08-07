@@ -6,19 +6,28 @@
   height: 100vh;
 }
 
-.card1 {
+.card1,.card2,.card3 {
   flex-direction: column;
   background-color: chocolate;
   height: 75%;
   width: 20%;
-  margin: 4rem;
+  margin: 0rem;
 }
-.h-sedan {
+.card1{
+  margin-left: 16rem;
+}
+.card2{
+  background-color:darkslategray
+}
+.card3{
+  background-color:darkgreen
+}
+.h-sedan,.h-suv,.h-luxury{
   color: white;
   font-family: impact, sans-serif;
   font-size: 30px;
 }
-.p-sedan {
+.p-sedan,.p-suv,.p-luxury {
   text-align: left;
   font-size: 18px;
 }
@@ -29,10 +38,11 @@ p {
   padding: 2rem 2rem 0rem 2rem;
 }
 
-.b-sedan {
+.b-sedan,.b-suv,.b-luxury {
   margin: 3rem 2rem 0rem 2rem;
   align-items: center;
   font-size: 16px;
   border-radius: 30px;
   padding: 12px 20px;
+  
 }
