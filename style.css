@@ -7,9 +7,9 @@
   font-family: big-shoulder;
   src: url(Big_Shoulders_Display/BigShouldersDisplay-Regular.ttf);
 }
-body{
-  margin:0
-  }
+body {
+  margin: 0;
+}
 
 .container {
   display: flex;
@@ -19,37 +19,42 @@ body{
   background-color: hsl(0, 0%, 95%);
   background-size: auto;
   height: 100vh;
-  width:100vw;
+  width: 100vw;
 }
 
-.card1,.card2,.card3 {
+.card1,
+.card2,
+.card3 {
   height: 55%;
   width: 16%;
   padding: 3%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
-.card1{
-  background-color:hsl(31, 77%, 52%)
+.card1 {
+  background-color: hsl(31, 77%, 52%);
 }
-.card2{
-  background-color:hsl(184, 100%, 22%);
+.card2 {
+  background-color: hsl(184, 100%, 22%);
 }
-.card3{
-  background-color:hsl(179, 100%, 13%);
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+}
+div {
+  display: block;
 }
 
-.h-ssl{
+.h-ssl {
   color: white;
   font-weight: 700;
   font-family: big-shoulder;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .p-ssl {
   font-family: myfont;
   font-size: 15px;
   font-weight: 400;
-  color:hsla(0, 0%, 100%, 0.75)
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .b-ssl {
@@ -58,35 +63,49 @@ body{
   align-items: center;
   font-size: 15px;
   border-radius: 30px;
-  padding: 10px ;
+  padding: 10px;
   width: 100px;
   border: none;
-  
 }
-.b-ssl:hover{
+.b-ssl:hover {
   border: 3px solid hsl(0, 0%, 95%);
 }
 .btn-sedan {
-  color:hsl(31, 77%, 52%)
+  color: hsl(31, 77%, 52%);
 }
 .btn-sedan:hover {
-  background-color:hsl(31, 77%, 52%);
-  color:hsl(0, 0%, 95%)
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
 }
-.btn-suv{
-  color:hsl(184, 100%, 22%);
+.btn-suv {
+  color: hsl(184, 100%, 22%);
 }
-.btn-suv:hover{
-  background-color:hsl(184, 100%, 22%);
-  color:hsl(0, 0%, 95%)
+.btn-suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
 }
 .btn-luxury {
-  color:hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
 .btn-luxury:hover {
-  background-color:hsl(179, 100%, 13%);
-  color:hsl(0, 0%, 95%)
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
 }
-.img{
-  width:30%
+.img {
+  width: 30%;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    padding-top: 3%;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    height: 350px;
+    width: 80%;
+    padding: 6%;
+  }
 }
