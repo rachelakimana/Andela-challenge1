@@ -103,14 +103,15 @@ div {
     flex-direction: column;
     height: auto;
     width: 100vw;
-    padding-top: 3%;
+    padding-top: 18%;
+    padding-bottom:18%;
   }
   .card1,
   .card2,
   .card3 {
-    height: 350px;
-    width: 80%;
-    padding: 6%;
+    height: 320px;
+    width: 70%;
+    
   }
   .card1 {
     border-bottom-left-radius: 0px;
